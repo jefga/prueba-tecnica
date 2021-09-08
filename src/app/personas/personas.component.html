@@ -1,0 +1,44 @@
+
+<div class="container" style="margin-top: 70px;" *ngIf="personas.length > 0 " >
+        <table class="table table-hover">
+        <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Nombre planeta</th>
+            <th>Contador</th>
+            <th>Links</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let person of personas">
+        
+            <td>{{ person.nombre }}</td>
+            <td> {{ person.nombrePlaneta }}</td>
+            <td> {{ person.contador }}</td>
+            <td>
+            <a class="nav-link" routerLink="/Persona/{{person.idpersona}}">detalle</a>
+            </td>
+            </tr>
+        </tbody>
+        </table>
+ 
+  </div>
+
+  <div class="container" style="margin-top: 70px;" *ngIf="personas.length > 0 ">
+        <table class="table table-hover">
+        <thead>
+            <tr>
+            <th>Nombre planeta top</th>
+            <th>contador</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let planet of planetas">
+            <td> {{ planet.nombre }}</td>
+            <td> {{ planet.contador }}</td>
+            </tr>
+        </tbody>
+        </table>
+  </div>
+
+ 
