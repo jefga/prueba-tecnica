@@ -27,11 +27,14 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-para cambiar el puerto d los servicios en las siguientes rutas 
+para cambiar el puerto de los servicios en las siguientes rutas 
 
 prueba-tecnica/src/app/detalle-persona/detalle-persona.service.ts
 prueba-tecnica/src/app/detalle-planeta/detalle-planeta.service.ts
 prueba-tecnica/src/app/personas/personas.service.ts 
 prueba-tecnica/src/app/planetas/planetas.service.ts 
+
+baseurl="http://localhost:4000/services/"
+
 
 
