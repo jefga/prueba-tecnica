@@ -30,8 +30,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 para cambiar el puerto de los servicios en las siguientes rutas 
 
 prueba-tecnica/src/app/detalle-persona/detalle-persona.service.ts
+
 prueba-tecnica/src/app/detalle-planeta/detalle-planeta.service.ts
+
 prueba-tecnica/src/app/personas/personas.service.ts 
+
 prueba-tecnica/src/app/planetas/planetas.service.ts 
 
 baseurl="http://localhost:4000/services/"
