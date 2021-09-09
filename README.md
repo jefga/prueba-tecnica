@@ -31,4 +31,7 @@ para cambiar el puerto d los servicios en las siguientes rutas
 
 prueba-tecnica/src/app/detalle-persona/detalle-persona.service.ts
 prueba-tecnica/src/app/detalle-planeta/detalle-planeta.service.ts
+prueba-tecnica/src/app/personas/personas.service.ts 
+prueba-tecnica/src/app/planetas/planetas.service.ts 
+
 
